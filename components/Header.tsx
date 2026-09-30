@@ -20,8 +20,8 @@ export default function Header() {
     <header className="app-header">
       <div className="wrap inner">
         <Link href="/" className="logo">
-          <span className="mark">D</span>
-          <span>Drex<em>Bet</em></span>
+          <span className="mark">O</span>
+          <span>Odd<em>House</em></span>
         </Link>
 
         <nav className="main-nav">

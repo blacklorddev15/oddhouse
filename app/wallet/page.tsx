@@ -1,7 +1,7 @@
 'use client';
 
 import { money } from '@/lib/data';
-import { useStore } from '@/lib/store';
+import { STORAGE_KEY, useStore } from '@/lib/store';
 
 const TOP_UPS = [500, 1000, 2500, 5000];
 
@@ -41,7 +41,7 @@ export default function WalletPage() {
             <div className="deposit-row">
               <button
                 onClick={() => {
-                  window.localStorage.removeItem('drexbet:state:v1');
+                  window.localStorage.removeItem(STORAGE_KEY);
                   window.location.reload();
                 }}
               >

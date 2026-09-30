@@ -53,7 +53,7 @@ type Store = {
 
 const StoreContext = createContext<Store | null>(null);
 
-const STORAGE_KEY = 'drexbet:state:v1';
+export const STORAGE_KEY = 'oddhouse:state:v1';
 const START_BALANCE = 5000;
 
 const pickKey = (matchId: string, marketId: string, selectionId: string) =>

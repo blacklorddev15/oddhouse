@@ -6,7 +6,7 @@ import BottomNav from '@/components/BottomNav';
 import BetSlip from '@/components/BetSlip';
 
 export const metadata: Metadata = {
-  title: 'DrexBet — Sports Betting Demo',
+  title: 'OddHouse — Sports Betting Demo',
   description: 'A demonstration sportsbook: fixtures, odds and a bet slip. No real money involved.',
 };
 
@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <footer className="wrap footer">
               <div><span className="under-age">18</span><b>Strictly for adults.</b> Betting should be entertainment, never a way to make money.</div>
               <div style={{ marginTop: 8 }}>
-                DrexBet is a demonstration build. Fixtures, odds and results are invented, the balance is
+                OddHouse is a demonstration build. Fixtures, odds and results are invented, the balance is
                 simulated, and no deposits, withdrawals or payouts are processed. Operating a real
                 sportsbook requires a licence from your regulator — for example the Betting Control and
                 Licensing Board in Kenya.
